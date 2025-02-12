@@ -2,7 +2,7 @@
 
 
 ![demo](\ReadmeFiles\demo.gif)
-
+![demo](https://github.com/user-attachments/assets/4bf90355-51a9-49b3-99df-7c89a89db88c)
 This is a basic 3D character controller based on NavMesh pathfinding, which can be used for Moba games and RTS games.
 
 The included functions are: right-click on the floor to move, click on the floor when releasing skills to wait for the skill to be released before executing the move. Press S to stop the action immediately.
@@ -18,14 +18,20 @@ The UnitController.cs has reserved skill call interfaces (normal attacks are als
 2. Add NavMesh to your ground and bake;
 
    ![image-20250212173154594](\ReadmeFiles\image-20250212173154594.png)
+   ![image-20250212173154594](https://github.com/user-attachments/assets/ed4bf1a4-ffcf-49aa-bfa3-4c10e4e76a5b)
 
-3. Set the ground's layer the same as  UnitController and ClickVisual
+
+4. Set the ground's layer the same as  UnitController and ClickVisual
 
 ![image-20250212172547189](\ReadmeFiles\image-20250212172547189.png)
 
 ![image-20250212172717622](\ReadmeFiles\image-20250212172717622.png)
 
 ![image-20250212172749947](\ReadmeFiles\image-20250212172749947.png)
+![image-20250212172749947](https://github.com/user-attachments/assets/27994f85-f519-4795-aa6d-ccd3b1f653cd)
+![image-20250212172717622](https://github.com/user-attachments/assets/343589d8-0c2e-4462-b142-b406da191a0e)
+![image-20250212172547189](https://github.com/user-attachments/assets/da75782e-b8a5-4b85-ae7b-e070e81186c1)
+
 
 4. Now you can play！
 
