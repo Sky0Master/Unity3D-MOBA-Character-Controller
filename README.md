@@ -1,7 +1,7 @@
 # Unity3D-MOBA-Character-Controller
 
 
-![demo](F:\Project\MobaCharacterController\ReadmeFiles\demo.gif)
+![demo](\ReadmeFiles\demo.gif)
 
 This is a basic 3D character controller based on NavMesh pathfinding, which can be used for Moba games and RTS games.
 
@@ -17,19 +17,24 @@ The UnitController.cs has reserved skill call interfaces (normal attacks are als
 
 2. Add NavMesh to your ground and bake;
 
-   ![image-20250212173154594](F:\Project\MobaCharacterController\ReadmeFiles\image-20250212173154594.png)
+   ![image-20250212173154594](\ReadmeFiles\image-20250212173154594.png)
 
 3. Set the ground's layer the same as  UnitController and ClickVisual
 
-![image-20250212172547189](F:\Project\MobaCharacterController\ReadmeFiles\image-20250212172547189.png)
+![image-20250212172547189](\ReadmeFiles\image-20250212172547189.png)
 
-![image-20250212172717622](F:\Project\MobaCharacterController\ReadmeFiles\image-20250212172717622.png)
+![image-20250212172717622](\ReadmeFiles\image-20250212172717622.png)
 
-![image-20250212172749947](C:\Users\99367\AppData\Roaming\Typora\typora-user-images\image-20250212172749947.png)
+![image-20250212172749947](\ReadmeFiles\image-20250212172749947.png)
 
 4. Now you can play！
 
-   
+
+
+
+---
+
+### 中文说明
 
 这是一个基础的基于NavMesh寻路的3D角色控制器，可以用于Moba游戏和RTS游戏。
 
