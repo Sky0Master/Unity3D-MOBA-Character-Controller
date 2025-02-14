@@ -762,6 +762,10 @@ PrefabInstance:
       value: MobaPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 4684212651069273247, guid: 8638795482d97e9468e685857933f52e, type: 3}
+      propertyPath: rotationSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4684212651069273247, guid: 8638795482d97e9468e685857933f52e, type: 3}
       propertyPath: groundLayerMask.m_Bits
       value: 64
       objectReference: {fileID: 0}

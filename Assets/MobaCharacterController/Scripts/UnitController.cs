@@ -4,7 +4,7 @@ public class UnitController : MonoBehaviour
 {
    [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float rotationSpeed = 10f;
+    [SerializeField] private float rotationSpeed = 20f;
     [SerializeField] private LayerMask groundLayerMask;
 
     private UnityEngine.AI.NavMeshAgent navAgent;
@@ -29,6 +29,7 @@ public class UnitController : MonoBehaviour
 
     private void Update()
     {
+        ConfigureNavAgent();    //更新移速参数
         HandleInput();
         UpdateRotation();
     }
