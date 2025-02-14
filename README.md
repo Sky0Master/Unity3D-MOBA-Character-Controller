@@ -12,7 +12,7 @@ The UnitController.cs has reserved skill call interfaces (normal attacks are als
 
 ### How To Use In Your Own Project
 
-1. Import Unity Package, **you can download the file in "Release"**
+1. Import Unity Package, **you can download the file in "Releases"**
 2. Add NavMesh to your ground and bake;
 
 ![image-20250212173154594](https://github.com/user-attachments/assets/ed4bf1a4-ffcf-49aa-bfa3-4c10e4e76a5b)
