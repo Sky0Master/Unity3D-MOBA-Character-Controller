@@ -24,7 +24,7 @@ public class MoveAnimation : MonoBehaviour
         offset.y = 0;
         if(offset.magnitude <= 0.01f) 
             offset = Vector3.zero;
-        
+
         float speed = offset.magnitude / Time.deltaTime;
         animator.SetFloat("Speed", speed);
         animator.SetFloat(motionSpeedKey, speed * motionSpeedFactor);

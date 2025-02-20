@@ -50,6 +50,7 @@ public class UnitController : MonoBehaviour
                 else
                 {
                     MoveTo(targetPos);
+                    GetComponent<Animator>().SetBool("Dancing", false);
                 }
             }
         }
@@ -58,6 +59,11 @@ public class UnitController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S))
         {
             StopMovement();
+        }
+        if(Input.GetKeyDown(KeyCode.T))
+        {
+            StopMovement();
+            GetComponent<Animator>().SetBool("Dancing", true);
         }
     }
 
