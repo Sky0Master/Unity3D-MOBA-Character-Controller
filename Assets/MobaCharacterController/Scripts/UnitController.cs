@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class UnitController : MonoBehaviour
 {
+    public bool inControl = false;
    [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float rotationSpeed = 20f;
@@ -36,6 +37,7 @@ public class UnitController : MonoBehaviour
 
     private void HandleInput()
     {
+        if (!inControl) return;
         // 鼠标右键点击移动
         if (Input.GetMouseButtonDown(1))
         {
@@ -50,7 +52,7 @@ public class UnitController : MonoBehaviour
                 else
                 {
                     MoveTo(targetPos);
-                    GetComponent<Animator>().SetBool("Dancing", false);
+                    animator.SetBool("Dancing", false);
                 }
             }
         }
@@ -63,9 +65,12 @@ public class UnitController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.T))
         {
             StopMovement();
-            GetComponent<Animator>().SetBool("Dancing", true);
+            animator.SetBool("Dancing", true);
         }
     }
+
+    [SerializeField]
+    Animator animator;
 
     private void MoveTo(Vector3 targetPosition)
     {

@@ -8,7 +8,7 @@ public static class GameUtils
         if (Physics.Raycast(ray, out RaycastHit hit, 1000, clickLayerMask))
         {
             result = hit.point;
-            Debug.Log("hit point: " + hit.point);
+            //Debug.Log("hit point: " + hit.point);
             return true;
         }
         result = Vector3.zero;
