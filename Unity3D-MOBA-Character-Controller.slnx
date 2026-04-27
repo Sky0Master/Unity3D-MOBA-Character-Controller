@@ -1,0 +1,14 @@
+﻿<Solution>
+  <Project Path="FishNet.Codegen.Cecil.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="FishNet.Runtime.csproj" />
+  <Project Path="ToonyColorsPro.Editor.csproj" />
+  <Project Path="GameKit.Dependencies.csproj" />
+  <Project Path="Unity.FishNet.Codegen.csproj" />
+  <Project Path="FishNet.Demos.csproj" />
+  <Project Path="ToonyColorsPro2.Demo.csproj" />
+  <Project Path="ToonyColorsPro.Runtime.csproj" />
+  <Project Path="KinoBloom.Runtime.csproj" />
+  <Project Path="ToonyColorsPro.Demo.Editor.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+</Solution>
