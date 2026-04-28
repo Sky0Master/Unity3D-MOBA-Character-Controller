@@ -1,0 +1,25 @@
+﻿<Solution>
+  <Project Path="Kamgam.SettingsGenerator.csproj" />
+  <Project Path="FishNet.Codegen.Cecil.csproj" />
+  <Project Path="Kamgam.UIToolkitComponentsForSettings.csproj" />
+  <Project Path="FishNet.Runtime.csproj" />
+  <Project Path="Assembly-CSharp-Editor-firstpass.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="GameKit.Dependencies.csproj" />
+  <Project Path="ToonyColorsPro.Editor.csproj" />
+  <Project Path="VTabs.csproj" />
+  <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="Kamgam.UGUIComponentsForSettings.csproj" />
+  <Project Path="Kamgam.UGUIComponentsForSettingsEditor.csproj" />
+  <Project Path="Unity.FishNet.Codegen.csproj" />
+  <Project Path="ToonyColorsPro2.Demo.csproj" />
+  <Project Path="Kamgam.SettingsGeneratorExamples.csproj" />
+  <Project Path="Kamgam.SettingsGeneratorEditor.csproj" />
+  <Project Path="FishNet.Demos.csproj" />
+  <Project Path="LocalizationsForSettings.csproj" />
+  <Project Path="LocalizationsForSettingsEditor.csproj" />
+  <Project Path="ToonyColorsPro.Demo.Editor.csproj" />
+  <Project Path="ToonyColorsPro.Runtime.csproj" />
+  <Project Path="KinoBloom.Runtime.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+</Solution>
