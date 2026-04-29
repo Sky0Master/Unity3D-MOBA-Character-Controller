@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/SoloGame/LobbyScene.unity
     guid: a56c14b6fe9f1c34b841c2a4f48f3b5c
   - enabled: 1
+    path: Assets/SoloGame/GameScene.unity
+    guid: fdf6f078df727fc4b9555337fcaf9d47
+  - enabled: 1
     path: Assets/MobaCharacterController/DemoScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:

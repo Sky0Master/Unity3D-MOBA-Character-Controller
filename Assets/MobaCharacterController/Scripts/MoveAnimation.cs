@@ -28,7 +28,7 @@ public class MoveAnimation : MonoBehaviour
         float speed = offset.magnitude / Time.deltaTime;
         animator.SetFloat("Speed", speed);
         animator.SetFloat(motionSpeedKey, speed * motionSpeedFactor);
-
+        //animator.SetBool("Run",offset.magnitude > 0);
         lastPos = transform.position;
     }
     private void OnFootstep(AnimationEvent animationEvent)
